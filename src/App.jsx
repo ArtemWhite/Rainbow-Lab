@@ -23,7 +23,7 @@ export default function App() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuLink href="#about">О проекте</NavigationMenuLink>
+              <NavigationMenuLink href="#about"> О проекте</NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#features">Возможности</NavigationMenuLink>
