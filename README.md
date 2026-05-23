@@ -361,8 +361,7 @@ npm run preview    # предпросмотр сборки
 ├── vite.config.js                      # Vite + алиас @/
 ├── tailwind.config.js                  # SpaceX-токены в теме Tailwind
 ├── postcss.config.js                   # PostCSS (Tailwind + Autoprefixer)
-├── ModelREADME.md                      # Исходное задание по физике
-├── ModelRainbow.md                     # ← Этот файл
+├── README.md                      
 └── src/
     ├── main.jsx                        # React entry (StrictMode)
     ├── App.jsx                         # Корневой компонент: меню + все секции
