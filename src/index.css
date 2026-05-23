@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-hairline-dark;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ===== SPACEX DESIGN TOKENS AS CSS VARIABLES ===== */
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 3% 15%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 4% 23%;
+    --muted-foreground: 240 5% 72%;
+    --accent: 240 3% 15%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 4% 23%;
+    --input: 240 4% 23%;
+    --ring: 0 0% 100%;
+    --radius: 8px;
+  }
+}
+
+/* SpaceX display tiers — uppercase only */
+.display-xxl { @apply font-display text-display-xxl uppercase; }
+.display-xl  { @apply font-display text-display-xl uppercase; }
+.display-lg  { @apply font-display text-display-lg uppercase; }
